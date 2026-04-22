@@ -10,6 +10,9 @@
 ابتدا داده‌ها را تمیز کرده و آماده‌سازی نمودم. سپس با استخراج مسیر تصاویر بر اساس فایل JSON داده‌های آموزشی، از یک مدل پیش‌آموزش‌دیده برای استخراج ویژگی‌ها استفاده کردم.  
 در نهایت یک مدل باینری آموزش دادم که هر پوشه را ارزیابی می‌کند و در صورتی که حتی یک تصویر استخر در پوشه وجود داشته باشد، آن پوشه را به عنوان «استخر» تشخیص می‌دهد.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+(https://colab.research.google.com/github/mahbodabazari/pool_quera/blob/main/EstakhtemoonNasheh.ipynb)
+
 ---
 
 
@@ -20,3 +23,6 @@
 In this project, I addressed the task of identifying folders containing pool images using deep learning and the PyTorch framework.  
 First, I cleaned and preprocessed the dataset. Then, based on the training JSON file, I extracted image paths and utilized a pre-trained model for feature extraction.  
 Finally, I trained a binary classification model that examines each folder and classifies it as "pool" if it contains even a single pool image.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+(https://colab.research.google.com/github/mahbodabazari/pool_quera/blob/main/EstakhtemoonNasheh.ipynb)
